@@ -3,4 +3,5 @@ From tomcat:8-jre8
 
 # Maintainer 
 MAINTAINER "devopsguftgu@gmail.com" 
-COPY ./webapp.war /opt/docker/webapp/target
+COPY ./webapp.war /usr/local/tomcat/webapps
+
